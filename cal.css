@@ -171,7 +171,7 @@ background: linear-gradient(5deg, rgba(117, 109, 114, 1) 0%, rgba(201, 220, 255,
  @media screen and (max-width: 768px) {
    .container {
      width: 90vw; /* Adjust width for smaller screens */
-     height: 30vh; /* Adjust height for smaller screens */
+     height: 32vh; /* Adjust height for smaller screens */
    }
    .Display-Output, .display-input {
      width: 95%; /* Adjust width for smaller screens */
