@@ -1,0 +1,175 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full viewport height */
+  margin: 0; /* remove default margin */
+  background-color: #7B52C1;
+}
+.heading{
+  text-align: center;
+  /* margin-bottom: 20px; */
+  background-color: #7B52C1;
+  color:#F2F7FF;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  border: 2px solid #ff69b4;
+  background-color: #B2C9FF;
+  height: 44vh;
+  width: 50vw;
+  border-radius:15px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.Display-Output{
+    background-color: #F2F7FF;
+    width:98%;
+    height: 70px;
+    margin: 10px 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 2.2rem;      /* Make text big */
+    font-weight: bold;      /* Make text bold */
+    text-align: center;     /* Center text horizontally (for multiline) */
+
+    overflow:hidden;       /* Hide overflow text */
+    white-space: nowrap;   /* Prevent text from wrapping */
+    text-overflow:clip;
+}
+
+.display-input{
+    background-color: #B2C9FF;
+    width: 98%;
+    height: 220px;
+    margin:auto;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    display: grid;
+    justify-content: stretch;
+    align-items: stretch; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+} 
+
+.inputs{
+ display: grid;
+ grid-template-columns: repeat(5, 2fr);
+ grid-template-rows: repeat(1fr);
+ /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+} 
+.Equal{
+  grid-row-start: -4;
+  grid-row-end: -1;
+  grid-column-start: -2;
+  grid-column-end:  -1;
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+}
+.Null{
+  grid-row-start: -6;
+  grid-row-end: -4;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #756d72;
+    background: linear-gradient(5deg, rgba(117, 109, 114, 1) 0%, rgba(201, 220, 255, 1) 0%);
+    /* border: 2px solid #B2C9FF; */
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(44, 42, 42);
+    font-size: 1.2rem;
+}
+#button5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background: #756d72;
+background: linear-gradient(5deg, rgba(117, 109, 114, 1) 0%, rgba(201, 220, 255, 1) 0%);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(44, 42, 42);
+    font-size: 1.2rem;
+    /* border: 2px solid #B2C9FF; */
+}
+#button10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background: #756d72;
+background: linear-gradient(5deg, rgba(117, 109, 114, 1) 0%, rgba(201, 220, 255, 1) 0%);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid #B2C9FF;
+    color: rgb(44, 42, 42);
+    font-size: 1.2rem;
+}
+.button:hover {
+    /* background: #B2C9FF;
+    color: #756d72; */
+    transform: translate3d(0, -2px, 0);
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+.button:active {
+  border: 2px solid rgb(27, 241, 27); /* Change border color when the button is active */
+}
+#button10:active{
+  border: 2px solid rgb(27, 241, 27); /* Change border color when the button is active */
+}
+#button5:active{
+  border: 2px solid rgb(27, 241, 27); /* Change border color when the button is active */
+}
+
+.error-message {
+    /* color: #e74c3c;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.3s ease-in; */
+
+    position:fixed;
+    top:50%;
+    left:50%;
+    color:red;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding:20px;
+    border:1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+ 
+ 
