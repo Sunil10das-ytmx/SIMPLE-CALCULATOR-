@@ -16,15 +16,15 @@ body {
   font-weight: bold;
 }
 
-.container {
+/* .container {
   border: 2px solid #ff69b4;
   background-color: #B2C9FF;
-  height: 44vh;
+  height: 47vh;
   width: 50vw;
   border-radius:15px;
   box-sizing: border-box;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+} */
 .Display-Output{
     background-color: #F2F7FF;
     width:98%;
@@ -217,7 +217,7 @@ background: linear-gradient(5deg, rgba(117, 109, 114, 1) 0%, rgba(201, 220, 255,
     border: 2px solid #ff69b4;
     background-color: #B2C9FF;
     margin: 10px;
-    height: 51vh;
+    height: 47vh;
     width: 50vw;
     border-radius: 15px;
     box-sizing: border-box;
